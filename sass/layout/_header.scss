@@ -1,0 +1,98 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(white, 0.2),
+      rgba(white, 0.2)
+    ),
+    url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  margin-bottom: 2rem;
+
+  &__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+
+    .logo-text {
+      font-size: 3rem;
+      font-weight: 900;
+      cursor: pointer;
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .heading-primary {
+      color: $color-dark;
+      text-transform: uppercase;
+
+      &--main {
+        display: block;
+        font-size: 6rem;
+        letter-spacing: 3rem;
+
+        animation-name: moveInTop;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+      }
+
+      &--sub {
+        display: block;
+        font-size: 1.5rem;
+        letter-spacing: 1.6rem;
+
+        animation-name: moveInBottom;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+      }
+    }
+  }
+
+  .navigation {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+
+    &__list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__item {
+      float: right;
+    }
+
+    &__link {
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: block;
+      color: $color-dark;
+      text-align: center;
+      padding: 1.4rem 3rem;
+      text-decoration: none;
+
+      &:hover {
+          color: $color-lighter-dark;
+          transition: all .5s;
+      }
+
+      &--border {
+        border: 1px solid $color-dark;
+        margin-left: 5rem;
+
+        &:hover {
+            border: 1px solid $color-lighter-dark;
+        }
+      }
+    }
+  }
+}

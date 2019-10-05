@@ -1,0 +1,52 @@
+.card {
+  background-color: white;
+  height: 65rem;
+
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 4rem rgba($color-dark, 0.15);
+
+  &__picture {
+    background-size: cover;
+    height: 35rem;
+    margin-bottom: 2rem;
+
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(white, 0.2),
+          rgba(white, 0.2)
+        ),
+        url(../img/img-3.jpg);
+    }
+
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(white, 0.2),
+          rgba(white, 0.2)
+        ),
+        url(../img/img-2.jpg);
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(white, 0.2),
+          rgba(white, 0.2)
+        ),
+        url(../img/img-4.jpg);
+    }
+  }
+
+  &__heading {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 1rem;
+  }
+
+  &__details {
+      padding: 0 3rem 3rem 3rem;
+      font-size: 1.2rem;
+      text-align: justify;
+  }
+}
