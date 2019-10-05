@@ -1,0 +1,14 @@
+{
+  "name": "productivity-blog",
+  "version": "1.0.0",
+  "description": "blog website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Naufal Tjakra",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
