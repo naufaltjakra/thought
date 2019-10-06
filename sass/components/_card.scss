@@ -5,6 +5,8 @@
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba($color-dark, 0.15);
 
+  transition: all 0.5s;
+
   &__picture {
     background-size: cover;
     height: 35rem;
@@ -39,14 +41,18 @@
   }
 
   &__heading {
-      font-size: 1.8rem;
-      text-align: center;
-      margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   &__details {
-      padding: 0 3rem 3rem 3rem;
-      font-size: 1.2rem;
-      text-align: justify;
+    padding: 0 3rem 3rem 3rem;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  &:hover {
+    transform: scale(1.07);
   }
 }

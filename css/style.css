@@ -44,7 +44,7 @@ body {
   text-align: center !important; }
 
 .u-margin-bottom-small {
-  margin-bottom: 1rem !important; }
+  margin-bottom: 4rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 7rem !important; }
@@ -58,11 +58,22 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.dot-box {
+  margin-top: 2rem;
+  letter-spacing: 2rem; }
+  .dot-box__item {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #3c4245;
+    border-radius: 50%;
+    display: inline-block; }
+
 .card {
   background-color: white;
   height: 65rem;
   border-radius: 5px;
-  box-shadow: 0 1.5rem 4rem rgba(60, 66, 69, 0.15); }
+  box-shadow: 0 1.5rem 4rem rgba(60, 66, 69, 0.15);
+  transition: all 0.5s; }
   .card__picture {
     background-size: cover;
     height: 35rem;
@@ -81,6 +92,8 @@ body {
     padding: 0 3rem 3rem 3rem;
     font-size: 1.2rem;
     text-align: justify; }
+  .card:hover {
+    transform: scale(1.07); }
 
 .header {
   height: 95vh;
