@@ -2,8 +2,11 @@
   text-align: center !important;
 }
 
+.u-margin-bottom-tiny {
+  margin-bottom: 3rem !important;
+}
 .u-margin-bottom-small {
-  margin-bottom: 4rem !important;
+  margin-bottom: 5rem !important;
 }
 .u-margin-bottom-medium {
   margin-bottom: 7rem !important;
@@ -21,7 +24,7 @@
 }
 
 .dot-box {
-  margin-top: 2rem;
+  margin-top: 1rem;
   letter-spacing: 2rem;
   &__item {
     height: 1.5rem;

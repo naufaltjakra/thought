@@ -1,0 +1,23 @@
+.about-picture {
+  width: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(white, 0.2),
+    rgba(white, 0.2)
+  ), url(../img/img-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 85rem;
+}
+
+.about-text  {
+    padding: 10rem 12rem;
+    height: 85rem;
+    background-color: white;
+
+    &__description {
+        font-size: 1.4rem;
+        text-align: justify;
+        line-height: 2.5;
+    }
+}

@@ -7,6 +7,7 @@ $color-greenish: #719192;
 $color-light-grey: #f7f7f7;
 
 // Grid
-$grid-length: 140rem;
+$grid-length-hd: 140rem; // for 1920 x 1080 resolution
+$grid-length-720: 120rem; // for 1366 x 720 resolution
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;

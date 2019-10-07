@@ -13,8 +13,10 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #3c4245;
-  padding: 2rem;
   box-sizing: border-box; }
+
+header {
+  margin: 2rem; }
 
 @keyframes moveInTop {
   0% {
@@ -43,8 +45,11 @@ body {
 .u-center-text {
   text-align: center !important; }
 
+.u-margin-bottom-tiny {
+  margin-bottom: 3rem !important; }
+
 .u-margin-bottom-small {
-  margin-bottom: 4rem !important; }
+  margin-bottom: 5rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 7rem !important; }
@@ -59,7 +64,7 @@ body {
   margin-top: 10rem !important; }
 
 .dot-box {
-  margin-top: 2rem;
+  margin-top: 1rem;
   letter-spacing: 2rem; }
   .dot-box__item {
     height: 1.5rem;
@@ -94,6 +99,22 @@ body {
     text-align: justify; }
   .card:hover {
     transform: scale(1.07); }
+
+.about-picture {
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/img-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 85rem; }
+
+.about-text {
+  padding: 10rem 12rem;
+  height: 85rem;
+  background-color: white; }
+  .about-text__description {
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2.5; }
 
 .header {
   height: 95vh;
@@ -180,8 +201,27 @@ body {
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+    width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+
+.row-full {
+  margin: 0 auto; }
+  .row-full:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row-full::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row-full [class^="col-"] {
+    float: left; }
+    .row-full [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row-full .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
 
 .section-article {
   background-color: #f7f7f7;
-  padding: 15rem 0 40rem 0; }
+  padding: 15rem 0 25rem 0; }
+
+.section-subscribe {
+  background-color: #f7f7f7;
+  padding: 15rem 0 30rem 0; }
