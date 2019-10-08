@@ -18,6 +18,9 @@ body {
 header {
   margin: 2rem; }
 
+a {
+  color: #3c4245; }
+
 @keyframes moveInTop {
   0% {
     opacity: 0;
@@ -39,8 +42,12 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   color: #3c4245; }
+
+.heading-description {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem; }
 
 .u-center-text {
   text-align: center !important; }
@@ -75,7 +82,6 @@ header {
 
 .card {
   background-color: white;
-  height: 65rem;
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba(60, 66, 69, 0.15);
   transition: all 0.5s; }
@@ -100,6 +106,23 @@ header {
   .card:hover {
     transform: scale(1.07); }
 
+.btn-submit, .btn-submit:link, .btn-submit:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.2rem 4rem;
+  cursor: pointer;
+  border: 1px solid #5f6769;
+  font-family: inherit;
+  background-color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.5s; }
+
+.btn-submit:hover {
+  transform: scale(1.2); }
+
+.btn-submit:focus, .btn-submit:active {
+  outline: none; }
+
 .about-picture {
   width: 100%;
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/img-5.jpg);
@@ -115,6 +138,24 @@ header {
     font-size: 1.4rem;
     text-align: justify;
     line-height: 2.5; }
+
+.form__input {
+  padding: 1.5rem 2rem;
+  width: 32%; }
+
+.footer__social-list {
+  list-style: none; }
+
+.footer__social-item, .footer__social-item:link, .footer__social-item:visited {
+  padding: 1rem;
+  font-size: 3rem;
+  display: inline-block;
+  text-decoration: none; }
+
+.footer__copyright {
+  float: right;
+  font-size: 1.4rem;
+  padding: 2.4rem; }
 
 .header {
   height: 95vh;
@@ -224,4 +265,7 @@ header {
 
 .section-subscribe {
   background-color: #f7f7f7;
-  padding: 15rem 0 30rem 0; }
+  padding: 15rem 0 15rem 0; }
+
+.footer {
+  padding: 7rem 0 7rem 0; }

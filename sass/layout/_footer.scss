@@ -1,0 +1,23 @@
+.footer {
+  &__social-box {
+  }
+
+  &__social-list {
+      list-style: none;
+  }
+
+  &__social-item,
+  &__social-item:link,
+  &__social-item:visited {
+    padding: 1rem;
+    font-size: 3rem;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &__copyright {
+    float: right;
+    font-size: 1.4rem;
+    padding: 2.4rem;
+  }
+}
